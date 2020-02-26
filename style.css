@@ -1,0 +1,58 @@
+
+body{
+    background-color : black;
+}
+
+h1 {
+    color: white;
+    font-size: 100px;
+    font-weight: 550;
+    text-align: center;
+    border : 15px solid white;
+    border-spacing: 10px;
+    padding: 10px;
+    position : relative;
+    top: 175px;
+    width : 60%;
+    margin: 0 auto;
+  }
+#banner{
+    background-image: url('https://www.theverge.com/2019/4/12/18306094/game-of-thrones-got-season-8-episodes-final-last-recaps-hbo');
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    width : 100%;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 10px;
+  }
+
+  /* Create four equal columns that sits next to each other */
+  .column {
+    flex: 22.5%;
+    max-width: 22.5%;
+    padding: 0 11px;
+  }
+
+  .column img {
+    margin-top: 22px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  .column video {
+    margin-top: 22px;
+    vertical-align: middle;
+    width: 100%;
+  }
+
+  .container{
+        width : 90%;
+        margin: 0 auto;
+  }
+
+  p{
+      font-family: cursive;
+      text-align: center;
+  }
